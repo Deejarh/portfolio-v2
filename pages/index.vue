@@ -1,6 +1,8 @@
 <template>
-    <main>
+    <main class="custom-max-width overflow-hidden overscroll-x-none ">
       <hero-section />
+      <about-me class="mb-32 "/>
+      <my-skills/>
     </main>
   </template>
   <script setup></script>

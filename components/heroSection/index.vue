@@ -5,10 +5,10 @@
 
 
 <template>
-  <section class=" h-screen ">
-    <div class=" relative flex justify-center items-center h-full  -mt-28 "><hero-image/></div>
-    <div class=" absolute   top-52 w-full items-center pr-8 ">
-    <div class=" hero-section flex flex-col justify-center items-center ">
+  <section class="relative h-screen  mx-44 ">
+    <div class=" flex justify-center items-center h-auto    bg opacity-30  bg-blend-difference"></div>
+    <div class=" absolute   top-44 w-full items-center  ">
+    <div class=" hero-section flex flex-col justify-center items-center gap-2 ">
         <client-only>
             <Vue3Lottie
               :animation-data="DeejarhJSON "
@@ -19,10 +19,10 @@
             />
         </client-only>
     
-            <div class=" greetings   text-sm px-5 mt-6 py-1 rounded-full border border-gray-200">👋 Hi </div>
-            <h1 class=" font-extrabold text-6xl"> I'm Damola Taiwo</h1>
-            <p> Empowering the web, One line of code at a time.</p>
-            <div></div>
+            <div class=" greetings   text-sm font-semibold px-5 mt-6 py-1 rounded-full border border-gray-200">👋 Hi </div>
+            <h1 class=" text-color font-extrabold text-6xl"> I'm Damola Taiwo</h1>
+            <p class=" text-color"> Empowering the web, One line of code at a time.</p>
+             <div class=" mt-12 w-[76px] h-[73px]"><img src="assets/HeroScroll.gif"></div>
          
     </div>
   </div>
@@ -32,6 +32,15 @@
 <style scoped>
 .greetings {
   background: rgba(123, 74, 226, 0.1);
+  color: rgba(44, 45, 63, 1);
+
+}
+.bg {
+  background-image: url('assets/HeroImg.png');
+
+}
+.text-color {
+  color: rgba(44, 45, 63, 1);
 
 }
 </style>

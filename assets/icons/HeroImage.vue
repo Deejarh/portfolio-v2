@@ -1,5 +1,5 @@
 <template>
-    <svg class=" "  width="800" height="100vh" viewBox="0 0 1296 852" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg class=" "  width="852" height=" 852" viewBox="0 0 1296 852" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g style="mix-blend-mode:difference" opacity="0.2">
         <rect width="1296" height="852" fill="url(#pattern0)"/>
         </g>

@@ -24,6 +24,6 @@ body {
 
 /* custom */
 .custom-max-width {
-  width: min(calc(100% - 32px), 1600px);
+  width: min(calc(100% - 2px), 1600px);
   margin-inline: auto;
 }

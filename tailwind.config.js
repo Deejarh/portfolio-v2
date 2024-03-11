@@ -17,7 +17,12 @@ module.exports = {
         "jakarta-sans": ["Plus Jakarta Sans", "sans-serif"],
       },
       extend: {
-     
+        colors: {
+        "header": "#FB7788",
+        "primary": "#FFC1C9",
+        "purple": "#CB98D8",
+        "gray-1": "#55566F",
+      }
 
        
       },
