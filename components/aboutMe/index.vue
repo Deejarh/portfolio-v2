@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import HeroImage from "assets/icons/HeroImage";
 import GradientImg from "assets/icons/GradientImg";
 </script>
 
@@ -9,7 +8,7 @@ import GradientImg from "assets/icons/GradientImg";
     <div class=" lg:flex justify-between items-start  px-10 mx-20 gap-x-10  ">
       <div class="relative">
           <div class=" img-frame  rounded-b  bg-primary mt-28  opacity-35 h-[352px] w-[497px] z-0 "></div>
-       <img class=" z-50 absolute  -top-24 mt-3 ml-4   " src="assets/Deejarh.png" /> 
+       <img class=" z-50 absolute  -top-24 mt-3 ml-4" src="/images/Deejarh.png" />
       </div>
       <div class=" w-full max-w-[700px] px-14 ml-10 ">
         <h1 class=" mb-10 text-2xl text-header">About Me</h1>

@@ -21,12 +21,12 @@ const navLinks = reactive([
 
 <template>
   <header
-    class="header-container  flex justify-between items-center py-1 mt-8 mx-14 rounded-full px-2 border  shadow"
+    class="header-container  flex justify-between items-center py-2 mt-8 mx-14 rounded-full px-2 border  shadow"
   >
     <NuxtLink to="/#hero">
-      <deejarh-logo class=" cursor-pointer ml-2" />
+      <deejarh-logo class=" cursor-pointer mx-4" />
     </NuxtLink>
-    <div class="flex  items-center gap-8">
+    <div class="flex  items-center gap-8 mx-4">
     <nav class="max-md:hidden">
       <ul class="flex gap-8">
         <li
@@ -40,7 +40,7 @@ const navLinks = reactive([
         </li>
       </ul>
     </nav>
-    <dark-icon/>
+    <!-- <dark-icon/> -->
 </div>
 
   </header>

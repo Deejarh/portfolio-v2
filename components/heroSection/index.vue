@@ -1,6 +1,5 @@
  <script setup lang="ts">
     import DeejarhJSON from '@/assets/lottie/deejarh.json'
-    import HeroImage from 'assets/icons/HeroImage'
 </script>
 
 
@@ -36,7 +35,7 @@
 
 }
 .bg {
-  background-image: url('assets/HeroImg.png');
+  background-image: url('/images/HeroImg.png');
 
 }
 .text-color {

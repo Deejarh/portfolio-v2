@@ -1,70 +1,94 @@
 <script setup lang="ts">
-import HtmlIcon from '@/assets/icons/HtmlIcon'
-import JavascriptIcon from '@/assets/icons/JsIcon'
-import VueIcon from '@/assets/icons/VueIcon'
-import GitIcon from '@/assets/icons/GitIcon'
-
-
 const buttons = ref([
   {
-    name: "Html",
-    icon: HtmlIcon,
+    name: "HTML",
+    url: "/images/Html.png",
   },
   {
     name: "CSS 3",
-    icon: HtmlIcon,
+    url: "/images/Css.png",
   },
   {
-    name: "Javascript",
-    icon: JavascriptIcon,
+    name: "JAVASCRIPT",
+    url: "/images/JavaScript.png",
   },
   {
     name: "VUE JS",
-    icon: VueIcon,
+    url: "/images/Vue.png",
   },
   {
     name: "GIT",
-    icon: GitIcon,
+    url: "/images/Git.png",
   },
-//   {
-//     name: "NUXT",
-//     icon: "assets/icon/HtmlIcon.vue",
-//   },
-//   {
-//     name: "REST API",
-//     icon: "assets/icon/HtmlIcon.vue",
-//   },
-//   {
-//     name: "REACT",
-//     icon: "assets/icon/HtmlIcon.vue",
-//   }
-]
-);
+  {
+    name: "REST API",
+    url: "/images/Rest.png",
+  },
+  {
+    name: "NUXT",
+    url: "/images/Nuxt.png",
+  },
+  {
+    name: "REACT",
+    url: "/images/React.png",
+  },
+  {
+    name: "GRAPHQL",
+    url: "/images/Graphql.png",
+  },
+  {
+    name: "POSTGRESQL",
+    url: "/images/PostGress.png",
+  },
+]);
 </script>
 
 <template>
   <section class="my-14 mx-32">
     <div
-      class="bg-no-repeat relative h-[300px] bg-cover bg-purple img-frame rounded-3xl border"
+      class="bg-no-repeat relative h-[300px] bg-purple bg-cover img-frame rounded-3xl border"
     >
       <div class="overlay rounded-3xl"></div>
       <h4 class="text-gray-1 text-xs flex justify-center my-9 items-center">
         I AM SKILLED IN
       </h4>
-      <div class="flex  gap-7 px-10">
-
-      <div class="  bg-gray-300  px-3 py-2 rounded-2xl  " v-for="(button, index) in buttons" :key="button.name">
-       
-        <div class="  uppercase  text-white font-bold flex items-center gap-3  ">  {{ button.name }}</div>
+      <div class="flex gap-7 items-center mb-6 justify-center  cursor-text">
+        <div
+          class="bg-gray-300 px-5 py-4 border border-opacity-60 text-black-1  border-purple-2 button hover:rounded-full z-30 rounded-xl"
+          v-for="(button, index) in buttons.slice(0, 6)"
+          :key="button.name"
+        >
+          <div class="font-bold flex items-center gap-4">
+            <nuxt-img :src="button.url" class="" />
+            <span class="uppercase"> {{ button.name }}</span>
+          </div>
+        </div>
       </div>
-    </div>
+      <div class="flex gap-7 items-center justify-center cursor-text">
+        <div
+          class="bg-gray-300 px-5 py-4 border text-black-1  border-opacity-60 border-purple-2 z-30 button hover:rounded-full rounded-xl c"
+          v-for="(button, index) in buttons.slice(6)"
+          :key="button.name"
+        >
+          <div class="font-bold flex items-center gap-4">
+            <nuxt-img :src="button.url" class="" />
+            <span class="uppercase"> {{ button.name }}</span>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
 
 <style scoped>
+.button:hover {
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(109.62deg, #181818 11.08%, #141626 90.72%);
+  transition:  0.6s ease-in-out;
+}
 .img-frame {
-  background-image: url("assets/LightCode.png");
+  background-image: url("/images/LightCode.png");
 }
 .overlay {
   position: absolute;
