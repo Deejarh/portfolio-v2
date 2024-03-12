@@ -10,7 +10,7 @@ const navLinks = reactive([
   },
   {
     label: "Work",
-    to: "/#projects",
+    to: "/#work",
   },
   {
     label: "Contact",
@@ -21,7 +21,7 @@ const navLinks = reactive([
 
 <template>
   <header
-    class="header-container  flex justify-between items-center py-2 mt-8 mx-14 rounded-full px-2 border  shadow"
+    class="header-container  flex justify-between items-center py-2 mt-8 mx-14 rounded-full px-2 border font-oxygen  shadow"
   >
     <NuxtLink to="/#hero">
       <deejarh-logo class=" cursor-pointer mx-4" />

@@ -44,35 +44,35 @@ const buttons = ref([
 </script>
 
 <template>
-  <section class="my-14 mx-32">
+  <section id="skills" class=" my-20 mx-32">
     <div
-      class="bg-no-repeat relative h-[300px] bg-purple bg-cover img-frame rounded-3xl border"
+      class="bg-no-repeat font-passion relative h-[300px] bg-purple bg-cover img-frame rounded-3xl border"
     >
       <div class="overlay rounded-3xl"></div>
-      <h4 class="text-gray-1 text-xs flex justify-center my-9 items-center">
+      <h4 class="text-gray-1 font-bold text-opacity-40 font-oxygen text-xs flex justify-center my-9 items-center">
         I AM SKILLED IN
       </h4>
       <div class="flex gap-7 items-center mb-6 justify-center  cursor-text">
         <div
           class="bg-gray-300 px-5 py-4 border border-opacity-60 text-black-1  border-purple-2 button hover:rounded-full z-30 rounded-xl"
-          v-for="(button, index) in buttons.slice(0, 6)"
+          v-for="(button) in buttons.slice(0, 6)"
           :key="button.name"
         >
-          <div class="font-bold flex items-center gap-4">
+          <div class="font-bold flex items-center gap-3">
             <nuxt-img :src="button.url" class="" />
-            <span class="uppercase"> {{ button.name }}</span>
+            <span class="uppercase text-2xl"> {{ button.name }}</span>
           </div>
         </div>
       </div>
       <div class="flex gap-7 items-center justify-center cursor-text">
         <div
-          class="bg-gray-300 px-5 py-4 border text-black-1  border-opacity-60 border-purple-2 z-30 button hover:rounded-full rounded-xl c"
-          v-for="(button, index) in buttons.slice(6)"
+          class="bg-gray-300 px-5 py-4 border text-black-1  border-opacity-60 border-purple-2 z-30 button hover:rounded-full rounded-xl "
+          v-for="(button) in buttons.slice(6)"
           :key="button.name"
         >
-          <div class="font-bold flex items-center gap-4">
+          <div class="font-bold flex items-center gap-3">
             <nuxt-img :src="button.url" class="" />
-            <span class="uppercase"> {{ button.name }}</span>
+            <span class="uppercase text-2xl"> {{ button.name }}</span>
           </div>
         </div>
       </div>
