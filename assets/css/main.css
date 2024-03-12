@@ -23,7 +23,7 @@ body {
 /* custom */
 
 .header-font {
-  @apply font-spirax text-header text-6xl
+  @apply font-spirax text-header lg:text-6xl  text-4xl
  }
 
 .custom-max-width {

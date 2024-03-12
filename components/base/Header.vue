@@ -26,9 +26,9 @@ const navLinks = reactive([
     <NuxtLink to="/#hero">
       <deejarh-logo class=" cursor-pointer mx-4" />
     </NuxtLink>
-    <div class="flex  items-center gap-8 mx-4">
-    <nav class="max-md:hidden">
-      <ul class="flex gap-8">
+    <div class="flex  items-center gap-4 md:gap-8 mx-4">
+    <nav class="">
+      <ul class="flex gap-8 max-md:hidden">
         <li
           v-for="(link, index) in navLinks"
           :key="index"

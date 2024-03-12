@@ -23,18 +23,18 @@ const projects = ref([
 </script>
 
 <template>
-  <section id="work" class="mt-14 mx-32">
-    <h1 class="header-font my-12">My Work</h1>
+  <section id="work" class="mt-14 lg:mx-32 mx-6">
+    <h1 class="header-font lg:my-12 ">My Work</h1>
     <div>
       <div v-for="project in projects" :key="project.title">
         <div
-          class="flex shadow-transparent hover:shadow-xl p-6 rounded-3xl items-center text-gray-1 my-12 border border-gray-3 border-opacity-25"
+          class="flex flex-col lg:flex-row lg:shadow-transparent lg:hover:shadow-xl lg:p-6 rounded-3xl lg:items-center text-gray-1 my-12 border border-gray-3 border-opacity-25"
         >
           <nuxt-img :src="project.imgUrl" class="" />
           <div class="px-6">
-            <h3 class="font-bold my-4 font-urbanist">{{ project.title }}</h3>
-            <p class="my-3">{{ project.description }}</p>
-            <div class="flex gap-x-3 text-xs capitalize my-3">
+            <h3 class="font-bold my-4 text-base font-urbanist">{{ project.title }}</h3>
+            <p class="lg:my-4 my-6 text-sm">{{ project.description }}</p>
+            <div class="flex flex-wrap gap-3 text-xs capitalize my-4">
               <div
                 v-for="(tool, index) in project.tools"
                 :key="index"
