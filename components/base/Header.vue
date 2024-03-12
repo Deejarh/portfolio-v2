@@ -21,7 +21,7 @@ const navLinks = reactive([
 
 <template>
   <header
-    class="header-container  flex justify-between items-center py-2 mt-8 mx-14 rounded-full px-2 border font-oxygen  shadow"
+    class="header-container  flex justify-between items-center py-2 mt-6 lg:mx-14 mx-6 rounded-full px-2 border font-oxygen  shadow"
   >
     <NuxtLink to="/#hero">
       <deejarh-logo class=" cursor-pointer mx-4" />
