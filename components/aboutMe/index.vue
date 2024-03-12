@@ -11,14 +11,14 @@ const downloadResume = () => {
 </script>
 
 <template>
-  <section id="about-me" class=" lg:-mt-24 mt-16 w-full lg:h-screen">
+  <section id="about-me" class=" lg:-mt-32 mt-16  w-full lg:h-screen">
     <div class="  mix-blend-hard-light"><gradient-img /></div>
-    <div class="flex lg:flex-row flex-col lg:justify-between lg:items-start items-center  pt-8 mt-10 lg:pt-0 lg:mt-0  lg:px-10 lg:mx-20 lg:gap-x-10  ">
-      <div class="relative">
-          <div class=" img-frame  rounded-b  bg-primary lg:mt-28 mt-14  opacity-35 lg:h-[300px] h-[244px] lg:w-[455px] w-[380px]  z-0 "></div>
-       <nuxt-img class=" z-50 absolute w-[320px] lg:w-[400px] lg:ml-4    -top-24 lg:mt-3  ml-6  lg:mx-0" src="/images/Deejarh.png" />
+    <div class="flex lg:flex-row flex-col lg:justify-between lg:items-start items-center  pt-8 mt-12 lg:pt-0 lg:mt-0  lg:px-10  lg:mx-20 lg:gap-x-10  ">
+      <div class="relative mx-6">
+          <div class=" img-frame  rounded-b  bg-primary lg:mt-28 mt-14  opacity-35 lg:h-[300px] h-[237px] lg:w-[455px] w-[350px]  z-0 "></div>
+       <nuxt-img class=" z-50 absolute w-[300px] lg:w-[400px] lg:ml-4 -top-20  lg:-top-24 lg:mt-3  ml-6  lg:mx-0" src="/images/Deejarh.png" />
       </div>
-      <div class=" w-full lg:max-w-[700px] lg:px-14 lg:ml-10 px-8 mt-8 text-sm lg:text-base ">
+      <div class=" w-full lg:max-w-[700px] lg:px-14 lg:ml-10 px-6 mt-8 text-sm lg:text-base ">
         <h1 class=" lg:mb-4 header-font my-4 lg:my-0">About Me</h1>
         <p class="  lg:pt-8">
           Hi!, i'm Damola K. Badmus, a budding frontend Developer based in

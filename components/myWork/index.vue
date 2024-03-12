@@ -30,7 +30,7 @@ const projects = ref([
         <div
           class="flex flex-col lg:flex-row lg:shadow-transparent lg:hover:shadow-xl lg:p-6 rounded-3xl lg:items-center text-gray-1 my-12 border border-gray-3 border-opacity-25"
         >
-          <nuxt-img :src="project.imgUrl" class="" />
+          <nuxt-img :src="project.imgUrl" class=" max-md:rounded-t-3xl " />
           <div class="px-6">
             <h3 class="font-bold my-4 text-base font-urbanist">{{ project.title }}</h3>
             <p class="lg:my-4 my-6 text-sm">{{ project.description }}</p>
