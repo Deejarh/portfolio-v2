@@ -26,6 +26,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
   ],
   image: {
+    provider: 'static',
     format: ["jpeg","png","webp"],
     quality: 100,
   },
