@@ -1,9 +1,16 @@
 <script setup>
 import DeejarhLogo from "@/assets/icons/DeejarhLogo.vue";
 import DarkIcon from 'assets/icons/DarkIcon'
+import HamburgerIcon from '@/assets/icons/HamburgerIcon'
+import SideNav from '@/components/base/SideNav'
+import CloseIcon from 'assets/icons/CloseIcon'
 
 
-const navLinks = reactive([
+
+const showSidenav = ref(false);
+const isActive = ref("");
+
+const navLinks = ref([
   {
     label: "About",
     to: "/#about-me",
@@ -17,11 +24,15 @@ const navLinks = reactive([
     to: "/#contact",
   },
 ]);
+
+const toggleSideNav = () => {
+  showSidenav.value = !showSidenav.value;
+};
 </script>
 
 <template>
   <header
-    class="header-container  flex justify-between items-center py-2 mt-6 lg:mx-14 mx-6 rounded-full px-2 border font-oxygen  shadow"
+    class="header-container  flex justify-between items-center py-2 mt-6 lg:mx-14 mx-6 rounded-full px-2 border font-oxygen  backdrop-blur-lg shadow"
   >
     <NuxtLink to="/#hero">
       <deejarh-logo class=" cursor-pointer mx-4" />
@@ -39,7 +50,18 @@ const navLinks = reactive([
           </NuxtLink>
         </li>
       </ul>
+
+      <div
+      class="md:hidden cursor-pointer "
+      @click="toggleSideNav"
+    >
+      <close-icon  v-if="showSidenav"   />
+   <hamburger-icon v-else  />
+    </div>
     </nav>
+    <div v-if="showSidenav" class="lg:hidden">
+      <side-nav @close-side-nav="toggleSideNav" />
+    </div>
     <!-- <dark-icon/> -->
 </div>
 

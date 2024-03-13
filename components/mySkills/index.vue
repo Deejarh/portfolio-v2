@@ -46,7 +46,7 @@ const buttons = ref([
 <template>
   <section id="skills" class=" lg:my-20 lg:mx-32 my-14 lg:mt-44  mx-4 ">
     <div
-      class="bg-no-repeat font-passion  relative max-md:max-w-[400px] w-full  min-h-[300px] lg:min-h-[300px] bg-purple bg-cover img-frame rounded-3xl border"
+      class="bg-no-repeat font-passion  relative max-md:max-w-[400px] w-full pb-3  min-h-[300px] lg:min-h-[300px] bg-purple bg-cover img-frame rounded-3xl border"
     >
       <div class="overlay rounded-3xl"></div>
       <h4 class="text-gray-1 font-bold text-opacity-40 font-oxygen text-xs flex justify-center my-9 items-center">
