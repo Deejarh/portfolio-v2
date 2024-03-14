@@ -41,8 +41,6 @@ const buttons = ref([
     url: "/images/PostGress.png",
   },
 ]);
-
-const showText = ref(null);
 </script>
 
 <template>
@@ -90,16 +88,14 @@ const showText = ref(null);
         class="flex flex-wrap gap-3 md:hidden items-center px-2 justify-center cursor-text w-full"
       >
         <div
-          @mouseover="showText = index"
-          @mouseleave="showText = null"
-          @blur="showText = null"
-          class="bg-gray-300 px-5 py-2 border border-opacity-60 text-black-1 border-purple-2 button hover:rounded-full z-30 rounded-xl"
+      
+          class="bg-gray-300 px-3 py-2 border border-opacity-60 text-black-1 border-purple-2 button hover:rounded-full z-30 rounded-xl"
           v-for="button in buttons"
           :key="button.name"
         >
           <div class="font-medium flex flex-col items-center gap-3">
             <nuxt-img :src="button.url" class="" />
-            <span v-if="showText === index" class="uppercase text-xs">
+            <span  class="uppercase text-xs">
               {{ button.name }}</span
             >
           </div>
