@@ -4,7 +4,7 @@
 
 
 <template>
-  <section id="hero" class=" lg:mt-1 lg:pt-2 mt-14 pt-20 lg:h-screen  mx-4  ">
+  <section id="hero" class=" lg:mt-1 lg:pt-2 mt-10 pt-8 lg:h-screen  mx-4  ">
     <!-- <div class=" flex justify-center items-center h-auto    bg opacity-30  bg-blend-difference"></div> -->
     <div class=" flex lg:mt-24 mt-20  justify-center   w-full items-center  ">
     <div class=" hero-section flex flex-col justify-center items-center gap-2  mb-2">

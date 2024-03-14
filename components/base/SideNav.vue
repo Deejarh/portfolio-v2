@@ -1,6 +1,6 @@
 <template>
     <div
-      class="fixed capitalize right-8 top-28 rounded-3xl header-container w-5/6  z-50 backdrop-blur-lg  py-4 flex flex-col justify-center items-center  shadow-md"
+      class="fixed capitalize right-8 top-28 backdrop-blur-lg rounded-3xl header-container w-5/6  z-50   py-4 flex flex-col justify-center items-center  shadow-md"
     >
       <div>
         <ul>
