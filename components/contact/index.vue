@@ -19,7 +19,7 @@
     <div class=" lg:border-l max-md:border-t max-md:w-36   lg:h-32  "> </div>
 
     <div class="cursor-pointer text-start  flex  flex-col  items-center  gap-y-2">
-      <div class="flex items-center gap-3"> <email-icon/> <span>Email:</span></div>
+      <div class="flex items-center gap-3"> <email-icon/> <span>Email:</span> </div>
       <p class=" flex items-center my-1 ">KhadijahBadmus024@gmail.com</p> 
       <div class="flex gap-x-3 items-center my-3 ">
         

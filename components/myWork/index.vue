@@ -24,7 +24,7 @@ const projects = ref([
 
 <template>
   <section id="work" class="mt-14 lg:mx-32 mx-4">
-    <h1 class="header-font lg:my-12 ">My Work</h1>
+    <h1 class="header-font lg:mt-12 ">My Work</h1>
     <div>
       <div v-for="project in projects" :key="project.title">
         <div
