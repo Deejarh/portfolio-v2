@@ -32,7 +32,7 @@ const toggleSideNav = () => {
 
 <template>
   <header
-    class="header-container  flex justify-between  items-center py-2 mt-8 lg:mx-14 mx-6 rounded-full px-2 border font-oxygen  shadow"
+    class="header-container custom-max-width backdrop-blur-[14px]  flex justify-between  items-center h-[71px]  lg:h-[86px] rounded-full px-6 border font-oxygen  shadow"
   >
     <NuxtLink to="/#hero">
       <deejarh-logo class=" cursor-pointer mx-4" />
@@ -59,7 +59,7 @@ const toggleSideNav = () => {
    <hamburger-icon v-else  />
     </div>
     </nav>
-    <div v-if="showSidenav" class="lg:hidden">
+    <div v-if="showSidenav" class="lg:hidden ">
       <side-nav @close-side-nav="toggleSideNav" />
     </div>
     <!-- <dark-icon/> -->
