@@ -89,7 +89,7 @@ const buttons = ref([
       >
         <div
       
-          class="bg-gray-300 px-3 py-2 border border-opacity-60 text-black-1 border-purple-2 button hover:rounded-full z-30 rounded-xl"
+          class="bg-gray-300 min-w-[81px] min-h-[76px] px-3 py-2 border border-opacity-60 text-black-1 border-purple-2 button hover:rounded-full z-30 rounded-xl"
           v-for="button in buttons"
           :key="button.name"
         >

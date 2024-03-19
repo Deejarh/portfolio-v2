@@ -13,6 +13,20 @@ const projects = ref([
     tools: ["Nuxt", "Typescript", "NodeJS", "vue", "Html", "CSS", "firebase"],
   },
   {
+    title: "Omni",
+    imgUrl: "/images/Omni.png",
+    description: "I played a pivotal role within the team in developing 'Omni,' a versatile payment solution with business and customer user interfaces. Omni enables business owners to generate payment links with customizable forms on the Torus dashboard, streamlining transactions. Leveraging third-party payment SDKs, customers can conveniently make payments using these links.With dynamic form capabilities and an intuitive user experience, Omni revolutionizes payments for businesses and customers, providing a streamlined solution.",
+    url: "https://www.torusmara.com/e-commerce",
+    tools: ["vue", "Typescript", "Rest API","Html", "TailwindCSS","Payment SDK"],
+  },
+  {
+    title: "Send Money",
+    imgUrl: "/images/SendMoney.png",
+    description:"Collaborated within a team of four to develop the frontend interface for 'Send-Money,' a web application facilitating seamless currency transfers. The application enables users to initiate transactions, receive real-time exchange rates, designate beneficiaries, and execute payments to Torus Mara. Integration with REST APIs ensured efficient communication with backend systems, while adherence to design principles ensured an intuitive user experience.",
+    url: "https://www.torusmara.com/global-settlement",
+    tools: ["vue", "Javascript", "Rest API", "Html", "TailwindCSS", "Vuex", "Element UI","Axios"],
+  },
+  {
     title: "Drag and Drop Trello Clone",
     imgUrl: "/images/Bot.png",
     description:  "Experience the convenience of organization with my Nuxt-powered Trello clone. Mimicking Trello's core functionalities, this intuitive app allows seamless drag-and-drop task management. Effortlessly create, organize, and prioritize tasks in a user-friendly interface, enhancing productivity and collaboration.",
@@ -24,7 +38,7 @@ const projects = ref([
 
 <template>
   <section id="work" class="mt-14 lg:mx-32 mx-4">
-    <h1 class="header-font lg:mt-12 ">My Work</h1>
+    <h1 class="header-font lg:mt-12  ">Selected Projects i've worked on</h1>
     <div>
       <div v-for="project in projects" :key="project.title">
         <div
