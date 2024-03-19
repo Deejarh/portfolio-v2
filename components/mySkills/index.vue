@@ -44,7 +44,7 @@ const buttons = ref([
 </script>
 
 <template>
-  <section id="skills" class="lg:my-14 lg:mx-32 my-14  mx-4">
+  <section id="skills" class=" lg:mx-32 mt-14  mx-4">
     <div
       class="bg-no-repeat font-passion relative max-md:max-w-[400px] w-full pb-3 min-h-[300px] lg:min-h-[300px] bg-purple bg-cover img-frame rounded-3xl border"
     >

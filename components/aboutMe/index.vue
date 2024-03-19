@@ -12,7 +12,7 @@ const downloadResume = () => {
 </script>
 
 <template>
-  <section id="about-me" class="lg:-mt-16 mt-20  w-full ">
+  <section id="about-me" class="lg:-mt-28 mt-20  w-full ">
     <div class="mix-blend-hard-light"><gradient-img /></div>
     <div
       class="flex lg:flex-row flex-col lg:justify-between lg:items-start items-center pt-8 mt-12 lg:pt-0 lg:mt-0 lg:px-10 lg:mx-20 lg:gap-x-10"

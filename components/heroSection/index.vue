@@ -1,13 +1,22 @@
  <script setup lang="ts">
     import DeejarhJSON from '@/assets/lottie/deejarh.json'
+
+    const heroImage = ref(
+  {
+    title: "Hero image",
+    url: "/images/HeroLight.png",
+  },
+    )
 </script>
 
 
 <template>
-  <section id="hero" class=" lg:mt-1 lg:pt-2 mt-12 pt-12 lg:h-screen  mx-4  flex justify-center items-center">
+  <section id="hero" class=" lg:mt-1 lg:pt-2 mt-12 pt-12   lg:h-screen   flex justify-center items-center">
+    <!-- <nuxt-img :src="heroImage.url" class=" max-md:rounded-t-3xl " /> -->
     <!-- <div class=" flex justify-center items-center h-auto    bg opacity-30  bg-blend-difference"></div> -->
-    <div class=" flex lg:mt-24 mt-20  justify-center   w-full items-center  ">
-    <div class=" hero-section flex flex-col justify-center items-center gap-2  mb-2">
+    
+    <div class=" flex   justify-center    w-full items-center  ">
+    <div class=" hero-section flex flex-col justify-center items-center gap-2 lg:mt-24 mt-20 mb-6">
         <client-only>
             <Vue3Lottie
               :animation-data="DeejarhJSON "
@@ -35,7 +44,9 @@
 
 }
 .bg {
-  background-image: url('/images/HeroImg.png');
+  background-image: url('/images/HeroLight.png');
+  background-position: center;
+  background-repeat: no-repeat;
 
 }
 .text-color {

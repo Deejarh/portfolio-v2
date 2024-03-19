@@ -37,12 +37,12 @@ const projects = ref([
 </script>
 
 <template>
-  <section id="work" class="mt-14 lg:mx-32 mx-4">
+  <section id="work" class=" pt-20 lg:pt-16 lg:mx-32 mx-4">
     <h1 class="header-font lg:mt-12  ">Selected Projects i've worked on</h1>
     <div>
       <div v-for="project in projects" :key="project.title">
         <div
-          class="flex flex-col lg:flex-row lg:shadow-transparent lg:hover:shadow-xl lg:p-6 rounded-3xl lg:items-center text-gray-1 my-12 border border-gray-3 border-opacity-25"
+          class="flex flex-col lg:flex-row lg:shadow-transparent lg:hover:shadow-xl lg:p-6 rounded-3xl lg:items-center text-gray-1 mb-12 mt-8 border border-gray-3 border-opacity-25"
         >
           <nuxt-img :src="project.imgUrl" class=" max-md:rounded-t-3xl " />
           <div class="px-6">
