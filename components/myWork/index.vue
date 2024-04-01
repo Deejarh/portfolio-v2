@@ -44,9 +44,9 @@ const projects = ref([
         <div
           class="flex flex-col lg:flex-row lg:shadow-transparent lg:hover:shadow-xl lg:p-6 rounded-3xl lg:items-center text-gray-1 mb-12 mt-8 border border-gray-3 border-opacity-25"
         >
-          <nuxt-img :src="project.imgUrl" class=" max-md:rounded-t-3xl " />
+          <nuxt-img :src="project.imgUrl" alt="Picture representing the project" class=" max-md:rounded-t-3xl " />
           <div class="px-6">
-            <h3 class="font-bold my-4 text-base font-urbanist">{{ project.title }}</h3>
+            <h2 class="font-bold my-4 text-base font-urbanist">{{ project.title }}</h2>
             <p class="lg:my-4 my-6 text-sm">{{ project.description }}</p>
             <div class="flex flex-wrap gap-3 text-xs capitalize my-4">
               <div

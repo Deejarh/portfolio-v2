@@ -23,10 +23,10 @@
       <p class=" flex items-center my-1 ">KhadijahBadmus024@gmail.com</p> 
       <div class="flex gap-x-3 items-center my-3 ">
         
-        <a href="https://twitter.com/kha_deejarh" target="_blank" class="cursor-pointer">
+        <a href="https://twitter.com/kha_deejarh" aria-label="Twitter link" target="_blank" class="cursor-pointer">
           <twitter-icon/>
         </a>
-        <a href="https://www.linkedin.com/in/badmus-damola-taiwo-643438158/" target="_blank"  rel="noopener noreferrer" class="cursor-pointer">
+        <a href="https://www.linkedin.com/in/badmus-damola-taiwo-643438158/" aria-label="Linkedin link"  target="_blank"  rel="noopener noreferrer" class="cursor-pointer">
           <linked-icon/>
         </a>
            </div>

@@ -1,5 +1,5 @@
 <template>
-    <div
+    <nav
       class="fixed capitalize right-8 top-28  rounded-3xl bg-white w-5/6  z-50   py-4 flex flex-col justify-center items-center  shadow-md"
     >
       <div>
@@ -26,7 +26,7 @@
         <p class="">Switch Mode</p>
       </li> -->
       </div>
-    </div>
+    </nav>
   </template>
   
   <script setup lang="ts">

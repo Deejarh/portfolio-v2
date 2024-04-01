@@ -24,6 +24,7 @@ const downloadResume = () => {
         <nuxt-img
           class="z-40 absolute w-[300px] lg:w-[400px] lg:ml-4 -top-20 lg:-top-24 lg:mt-3 ml-6 lg:mx-0"
           src="/images/Deejarh.png"
+          alt="Damola Taiwo's picture"
         />
       </div>
       <div

@@ -49,11 +49,11 @@ const buttons = ref([
       class="bg-no-repeat font-passion relative max-md:max-w-[400px] w-full pb-3 min-h-[300px] lg:min-h-[300px] bg-purple bg-cover img-frame rounded-3xl border"
     >
       <div class="overlay rounded-3xl"></div>
-      <h4
+      <p
         class="text-gray-1 font-bold text-opacity-40 font-oxygen text-xs flex justify-center my-9 items-center"
       >
         I AM SKILLED IN
-      </h4>
+      </p>
       <div
         class="flex flex-wrap lg:gap-7 gap-3 max-md:hidden items-center mb-6 justify-center cursor-text w-full"
       >
@@ -63,7 +63,7 @@ const buttons = ref([
           :key="button.name"
         >
           <div class="font-medium flex items-center gap-3">
-            <nuxt-img :src="button.url" class="" />
+            <nuxt-img :src="button.url" class="" alt="icon" />
             <span class="uppercase text-2xl"> {{ button.name }}</span>
           </div>
         </div>
@@ -77,7 +77,7 @@ const buttons = ref([
           :key="button.name"
         >
           <div class="font-medium flex items-center gap-3">
-            <nuxt-img :src="button.url" class="" />
+            <nuxt-img :src="button.url" class="" alt="icon" />
             <span class="uppercase text-2xl"> {{ button.name }}</span>
           </div>
         </div>
@@ -94,7 +94,7 @@ const buttons = ref([
           :key="button.name"
         >
           <div class="font-medium flex flex-col items-center gap-3">
-            <nuxt-img :src="button.url" class="" />
+            <nuxt-img :src="button.url" class="" alt="icon" />
             <span  class="uppercase text-xs">
               {{ button.name }}</span
             >

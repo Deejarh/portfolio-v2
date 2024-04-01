@@ -34,9 +34,8 @@ const toggleSideNav = () => {
   <header
     class="header-container custom-max-width backdrop-blur-[14px]  flex justify-between  items-center h-[71px]  lg:h-[86px] rounded-full px-6 border font-oxygen  shadow"
   >
-    <NuxtLink to="/#hero">
-      <deejarh-logo class=" cursor-pointer mx-4" />
-    </NuxtLink>
+      <deejarh-logo class=" mx-4" alt="Damola's logo" />
+ 
     <div class="flex  items-center gap-4 md:gap-8 mx-4">
     <nav class="">
       <ul class="flex gap-8 max-md:hidden">
