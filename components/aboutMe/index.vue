@@ -12,7 +12,7 @@ const downloadResume = () => {
 </script>
 
 <template>
-  <section id="about-me" class="lg:-mt-28 mt-20  w-full ">
+  <section id="about-me" class="lg:-mt-28 mt-20 w-full">
     <div class="mix-blend-hard-light"><gradient-img /></div>
     <div
       class="flex lg:flex-row flex-col lg:justify-between lg:items-start items-center pt-8 mt-12 lg:pt-0 lg:mt-0 lg:px-10 lg:mx-20 lg:gap-x-10"
@@ -28,14 +28,10 @@ const downloadResume = () => {
         />
       </div>
       <div
-        class="w-full lg:max-w-[700px] lg:px-14 lg:ml-10 px-6 mt-8 text-sm lg:text-base"
+        class="w-full lg:max-w-[700px] lg:px-14 lg:ml-10 px-6 mt-4 text-sm lg:text-base"
       >
         <h1 class="lg:mb-4 header-font my-4 lg:my-0">About Me</h1>
-        <p class="lg:pt-4">
-          I possess excellent people skills which allows me to effectively
-          communicate, collaborate and build positive relationships with others.
-        </p>
-        <p class="mt-4 lg:mt-4">
+        <p class="lg:pt-2">
           I am a highly proficient frontend developer with over three years of
           invaluable experience in the fintech/credit Industry, consistently
           delivering exceptional user experiences for a range of web
@@ -45,10 +41,12 @@ const downloadResume = () => {
           complex functional requirements across a diverse spectrum of
           Fintech/credit products.
         </p>
-     
+
         <p class="mt-4 lg:mt-4">
-          I have great aspirations and firmly believe that "lady luck favors the
-          one who tries".
+          I possess excellent people skills which allows me to effectively
+          communicate, collaborate and build positive relationships with
+          others.I have great aspirations and firmly believe that
+          <q class=" italic">lady luck favors the one who tries</q> .
         </p>
         <p class="my-4 lg:my-4">
           In my funtime, i catch up on latest trends in fashion. I love nature,
@@ -57,7 +55,7 @@ const downloadResume = () => {
         </p>
         <div
           @click="downloadResume"
-          class="border hover:bg-primary hover:bg-opacity-30 text-xs rounded-full px-4 py-3 mt-8 w-44 lg:w-48 flex items-center justify-center cursor-pointer font-oxygen gap-2"
+          class="border hover:bg-primary hover:bg-opacity-30 text-xs rounded-full px-4 py-3 mt-6 w-44 lg:w-48 flex items-center justify-center cursor-pointer font-oxygen gap-2"
         >
           Download Resume <span><arrow-down /></span>
         </div>

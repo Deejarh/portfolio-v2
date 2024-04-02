@@ -28,7 +28,7 @@ const projects = ref([
   },
   {
     title: "Drag and Drop Trello Clone",
-    imgUrl: "/images/Bot.png",
+    imgUrl: "/images/Trello.jpeg",
     description:  "Experience the convenience of organization with my Nuxt-powered Trello clone. Mimicking Trello's core functionalities, this intuitive app allows seamless drag-and-drop task management. Effortlessly create, organize, and prioritize tasks in a user-friendly interface, enhancing productivity and collaboration.",
     url: "https://deejarh-trello-clone.netlify.app/",
     tools: ["Nuxt", "Typescript", "vue", "Html", "CSS", "vueUse"],
@@ -44,7 +44,7 @@ const projects = ref([
         <div
           class="flex flex-col lg:flex-row lg:shadow-transparent lg:hover:shadow-xl lg:p-6 rounded-3xl lg:items-center text-gray-1 mb-12 mt-8 border border-gray-3 border-opacity-25"
         >
-          <nuxt-img :src="project.imgUrl" alt="Picture representing the project" class=" max-md:rounded-t-3xl " />
+          <nuxt-img :src="project.imgUrl" alt="Picture representing the project" class=" max-md:rounded-t-3xl lg:rounded-lg " />
           <div class="px-6">
             <h2 class="font-bold my-4 text-base font-urbanist">{{ project.title }}</h2>
             <p class="lg:my-4 my-6 text-sm">{{ project.description }}</p>
