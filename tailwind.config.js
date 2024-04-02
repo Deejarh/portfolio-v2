@@ -21,7 +21,7 @@ module.exports = {
       },
       extend: {
         colors: {
-        "header": "#FB7788",
+        "header": "#FA7788",
         "primary": "#FFC1C9",
         "purple": "#CB98D8",
         "purple-2": "#B480B4",

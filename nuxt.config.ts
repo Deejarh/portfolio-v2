@@ -6,12 +6,10 @@ export default defineNuxtConfig({
     public: {
     },
   },
-  head: {
-    title: "Badmus Damola Taiwo",
-    htmlAttrs: {
-      lang: "en",
-    },
-    meta: [
+  app: {
+     head: {
+       title: "Badmus Damola Taiwo",
+       meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "format-detection", content: "telephone=no" },
@@ -31,6 +29,7 @@ export default defineNuxtConfig({
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
+},
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
   pages: true,
