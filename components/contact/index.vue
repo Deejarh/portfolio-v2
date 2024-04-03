@@ -23,7 +23,7 @@
       <p class=" flex  my-1 ">KhadijahBadmus024@gmail.com</p> 
       <div class="flex gap-x-3 items-center my-3  ">
         
-        <a href="https://twitter.com/kha_deejarh" aria-label="Git link" target="_blank" class="cursor-pointer  hover:opacity-70 hover:rounded-full">
+        <a href="https://github.com/Deejarh/" aria-label="Git link" target="_blank" class="cursor-pointer  hover:opacity-70 hover:rounded-full">
           <git-icon/>
         </a>
         <a href="https://www.linkedin.com/in/badmus-damola-taiwo-643438158/" aria-label="Linkedin link"  target="_blank"  rel="noopener noreferrer" class="cursor-pointer  hover:opacity-70 hover:rounded-full">

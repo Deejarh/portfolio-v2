@@ -7,7 +7,7 @@ useHead({
   htmlAttrs: {
       lang: 'en'
     },
-      title: 'Badmus Damola Taiwo Website',
+      title: 'Badmus Damola Taiwo',
       meta: [
         { hid: 'description', name: 'description', content: appDescription },
       ],

@@ -40,7 +40,7 @@ const heroImage = ref({
           I'm Badmus Damola Taiwo
         </h1>
         <p
-          class="text-black-3 dark:text-white-1 font-overlock text-xs lg:text-sm lg:-mt-2"
+          class="text-black-3 dark:text-black-1 font-overlock text-xs lg:text-sm lg:-mt-2"
         >
           Crafting impactful frontend solutions, one line of code at a time.
         </p>
