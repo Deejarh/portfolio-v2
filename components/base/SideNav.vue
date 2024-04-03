@@ -1,6 +1,6 @@
 <template>
     <nav
-      class="fixed capitalize right-8 top-28  rounded-3xl bg-white w-5/6  z-50   py-4 flex flex-col justify-center items-center  shadow-md"
+      class="fixed capitalize right-8 top-28  rounded-3xl dark:bg-black   bg-white w-5/6  z-50   py-4 flex flex-col justify-center items-center  shadow-md"
     >
       <div>
         <ul>
@@ -11,7 +11,7 @@
           >
             <NuxtLink
               :to="link.to"
-              class="block   text-center text-base  text-gray-3 hover:bg-gray-1 hover:bg-opacity-30 hover:rounded-full  py-4 px-5 "
+              class="block   text-center text-base dark:text-black-1  text-gray-3 hover:bg-gray-1 hover:bg-opacity-30 hover:rounded-full  py-4 px-5 "
               
             >
               {{ link.label }}

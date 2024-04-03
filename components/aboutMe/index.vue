@@ -19,7 +19,7 @@ const downloadResume = () => {
     >
       <div class="relative mx-6">
         <div
-          class="img-frame rounded-b bg-primary lg:mt-28 mt-14 opacity-35 lg:h-[300px] h-[237px] lg:w-[455px] w-[350px] z-0"
+          class="img-frame rounded-b bg-primary lg:mt-28 mt-14  opacity-35 lg:h-[300px] h-[237px] lg:w-[455px] w-[350px] z-0"
         ></div>
         <nuxt-img
           class="z-40 absolute w-[300px] lg:w-[400px] lg:ml-4 -top-20 lg:-top-24 lg:mt-3 ml-6 lg:mx-0"
@@ -55,7 +55,7 @@ const downloadResume = () => {
         </p>
         <div
           @click="downloadResume"
-          class="border hover:bg-primary hover:bg-opacity-30 text-xs rounded-full px-4 py-3 mt-6 w-44 lg:w-48 flex items-center justify-center cursor-pointer font-oxygen gap-2"
+          class="border dark:text-white dark:bg-white dark:bg-opacity-10 dark:border-gray-3 hover:bg-primary hover:bg-opacity-30 text-xs rounded-full px-4 py-3 mt-6 w-44 lg:w-48 flex items-center justify-center cursor-pointer font-oxygen gap-2"
         >
           Download Resume <span><arrow-down /></span>
         </div>

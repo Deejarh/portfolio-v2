@@ -42,23 +42,23 @@ const projects = ref([
     <div>
       <div v-for="project in projects" :key="project.title">
         <div
-          class="flex flex-col lg:flex-row lg:shadow-transparent lg:hover:shadow-xl lg:p-6 rounded-3xl lg:items-center text-gray-1 mb-12 mt-8 border border-gray-3 border-opacity-25"
+          class="flex flex-col lg:flex-row  animate dark:hover:border-purple-2  hover:border-opacity-50  lg:hover:shadow lg:p-6 rounded-3xl lg:items-center text-gray-1 mb-12 mt-8 border border-gray-3 dark:border-gray dark:border-opacity-10 border-opacity-25"
         >
           <nuxt-img :src="project.imgUrl" alt="Picture representing the project" class=" max-md:rounded-t-3xl lg:rounded-lg " />
           <div class="px-6">
-            <h2 class="font-bold my-4 text-base font-urbanist">{{ project.title }}</h2>
-            <p class="lg:my-4 my-6 text-sm">{{ project.description }}</p>
-            <div class="flex flex-wrap gap-3 text-xs capitalize my-4">
+            <h2 class=" dark:text-white font-bold my-4 text-base  font-urbanist">{{ project.title }}</h2>
+            <p class=" dark:text-black-1 lg:my-4 my-6 text-sm ">{{ project.description }}</p>
+            <div class="flex flex-wrap gap-3 text-xs  capitalize my-4">
               <div
                 v-for="(tool, index) in project.tools"
                 :key="index"
-                class="px-3 py-1 rounded-full bg-gray-2 bg-opacity-20"
+                class="px-3 py-1 rounded-full dark:bg-gray-5 dark:bg-opacity-10 dark:text-gray-4 bg-gray-2 bg-opacity-20"
               >
                 {{ tool }}
               </div>
             </div>
 
-            <div > <a class="flex items-center my-5 " :href="project.url" target="_blank">Explore <span><up-arrow/></span> </a>  </div>
+            <div > <a class="flex items-center my-5 dark:text-white " :href="project.url" target="_blank">Explore <span><up-arrow/></span> </a>  </div>
           </div>
 
         </div>
@@ -68,22 +68,42 @@ const projects = ref([
 </template>
 
 <style scoped>
-.button:hover {
-  color: white;
+
+
+
+.animate:hover {
   cursor: pointer;
-  background: linear-gradient(109.62deg, #181818 11.08%, #141626 90.72%);
-  transition: 0.6s ease-in-out;
+  animation: borderCycle 2s linear infinite; /* Adjust animation duration and timing function as needed */
 }
-.img-frame {
-  background-image: url("/images/LightCode.png");
+
+@keyframes borderCycle {
+  0% {
+    border-width: 0; /* Initial border width */
+  }
+  25% {
+    border-top-width: 1px; /* Increase border width at top */
+    border-right-width: 1px; /* Reset border width at right */
+    border-bottom-width: 0; /* Reset border width at bottom */
+    border-left-width: 0; /* Reset border width at left */
+  }
+  50% {
+    border-top-width: 0px; /* Reset border width at top */
+    border-right-width: 1px; /* Increase border width at right */
+    border-bottom-width: 1px; /* Reset border width at bottom */
+    border-left-width: 0; /* Reset border width at left */
+  }
+  75% {
+    border-top-width: 0; /* Reset border width at top */
+    border-right-width: 0px; /* Reset border width at right */
+    border-bottom-width: 1px; /* Increase border width at bottom */
+    border-left-width: 1px; /* Reset border width at left */
+  }
+  100% {
+    border-top-width: 1px; /* Reset border width at top */
+    border-right-width: 0px; /* Reset border width at right */
+    border-bottom-width: 0px; /* Reset border width at bottom */
+    border-left-width: 1px; /* Increase border width at left */
+  }
 }
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #cb98d8;
-  opacity: 10%;
-}
+
 </style>

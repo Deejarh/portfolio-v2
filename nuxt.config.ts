@@ -48,8 +48,14 @@ export default defineNuxtConfig({
   },
   modules: [
     "@nuxt/image",
+    '@nuxtjs/color-mode',
     '@vueuse/nuxt',
   ],
+  colorMode: {
+    preference: 'dark', // default value of $colorMode.preference
+    fallback: 'dark', // fallback value if not system preference found
+    classSuffix: '',
+  },
   image: {
     format: ["webp"],
     quality: 100,

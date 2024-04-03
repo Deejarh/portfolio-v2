@@ -1,5 +1,6 @@
 <template>
   <svg
+  class=" text-gray-1 dark:text-white"
     width="20"
     height="20"
     viewBox="0 0 24 24"

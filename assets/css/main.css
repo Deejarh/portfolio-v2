@@ -16,17 +16,37 @@ html {
 }
 
 body {
-  @apply font-overlock font-normal text-gray-1;
+  @apply font-overlock dark:bg-black dark:text-black-1 font-normal  bg-white text-gray-1;
 }
 
 
 /* custom */
 
 .header-font {
-  @apply font-spirax text-header lg:text-6xl  text-4xl
+  @apply font-spirax text-header dark:text-primary lg:text-6xl  text-4xl
  }
 
 .custom-max-width {
   width: min(calc(100% - 2px), 1600px);
   margin-inline: auto;
+}
+
+.dark {
+  background: #090E16;
+  color: #9F9DA3
+}
+.border-dark {
+  border: 1px solid;
+border-image-source: linear-gradient(243.03deg, rgba(124, 124, 124, 0.51) 29.68%, rgba(85, 85, 85, 0.18) 66.86%);
+
+}
+.header-container2 {
+  background: #ffffff;
+  opacity: 8%;
+  border: 1px solid;
+  border-image: radial-gradient(
+    150.36% 227.1% at 8.75% 100%,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(201, 201, 201, 0) 100%
+  );
 }
