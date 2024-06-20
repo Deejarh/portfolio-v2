@@ -44,7 +44,6 @@ export default defineNuxtConfig({
     host: "0.0.0.0", // default: localhost
   },
   build: {
-    transpile: ["gsap"],
   },
   modules: [
     "@nuxt/image",

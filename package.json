@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "BadmusDamolaTaiwo",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "@nuxt/image": "^1.4.0",
-    "gsap": "^3.12.2",
     "mixpanel-browser": "^2.49.0",
     "nuxt": "^3.10.3",
     "vue": "^3.4.19",

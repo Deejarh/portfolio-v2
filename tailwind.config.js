@@ -12,8 +12,6 @@ module.exports = {
     ],
     theme: {
       fontFamily: {
-        mulish: ["Mulish", "sans-serif"],
-        "jakarta-sans": ["Plus Jakarta Sans", "sans-serif"],
         overlock: ["Overlock", "sans-serif"],
         passion: ["Passion One", "sans-serif"],
         oxygen: ["Oxygen", "sans-serif"],

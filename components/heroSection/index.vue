@@ -42,13 +42,13 @@ const heroImage = ref({
         <p
           class="text-black-3 dark:text-black-1 font-overlock text-xs lg:text-sm lg:-mt-2"
         >
-          Crafting impactful frontend solutions, one line of code at a time.
+          Crafting impactful web application, one line of code at a time.
         </p>
-        <div class="lg:mt-8 mt-6 w-[76px] h-[73px]">
+        <video class="lg:mt-8 mt-6 w-[76px] h-[73px]">
           <NuxtLink to="#about-me" aria-label="About me"
             ><img src="assets/HeroScroll.gif" alt="Arrow down gif"
           /></NuxtLink>
-        </div>
+        </video>
       </div>
     </div>
   </section>

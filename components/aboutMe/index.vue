@@ -31,12 +31,12 @@ const downloadResume = () => {
       >
         <h1 class="lg:mb-4 header-font my-4 lg:my-0">About Me</h1>
         <p class="lg:pt-2">
-          I am a highly proficient frontend developer with over three years of
+          I am a highly proficient fullstack engineer with over four years of
           invaluable experience in the fintech/credit Industry, consistently
           delivering exceptional user experiences for a range of web
           applications. I have successfully harnessed an impressive array of
-          cutting-edge technologies, including VueJs, React, JavaScript,
-          Typescript, GraphQL, REST, NodeJs,Tailwind CSS, and HTML, to fulfill
+          cutting-edge technologies, including JavaScript,Typescript, VueJs, React, NodeJs,
+          GraphQL, REST, CSS, and HTML, to fulfill
           complex functional requirements across a diverse spectrum of
           Fintech/credit products.
         </p>

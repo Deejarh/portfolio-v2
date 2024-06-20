@@ -18,8 +18,8 @@ const buttons = ref([
     url: "/images/Vue.png",
   },
   {
-    name: "GIT",
-    url: "/images/Git.png",
+    name: "NODE",
+    url: "/images/Node.png",
   },
   {
     name: "REST API",
@@ -67,7 +67,7 @@ const buttons = ref([
           :key="button.name"
         >
           <div class="font-medium flex items-center gap-3">
-            <nuxt-img :src="button.url" class="" alt="icon" />
+            <nuxt-img :src="button.url" class=" w-8 h-8" alt="icon" />
             <span class="uppercase text-2xl"> {{ button.name }}</span>
           </div>
         </div>
@@ -81,7 +81,7 @@ const buttons = ref([
           :key="button.name"
         >
           <div class="font-medium flex items-center gap-3">
-            <nuxt-img :src="button.url" class="" alt="icon" />
+            <nuxt-img :src="button.url"  class=" w-8 h-8" alt="icon" />
             <span class="uppercase text-2xl"> {{ button.name }}</span>
           </div>
         </div>
@@ -97,7 +97,7 @@ const buttons = ref([
           :key="button.name"
         >
           <div class="font-medium flex flex-col items-center gap-3">
-            <nuxt-img :src="button.url" class="" alt="icon" />
+            <nuxt-img :src="button.url" class=" w-6 h-6" alt="icon" />
             <span class="uppercase text-xs"> {{ button.name }}</span>
           </div>
         </div>
