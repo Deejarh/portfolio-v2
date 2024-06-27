@@ -60,7 +60,7 @@ const toggleSideNav = () => {
       <div v-if="showSidenav" class="lg:hidden">
         <side-nav @close-side-nav="toggleSideNav" />
       </div>
-      <button @click="toggleTheme" class=" w-[41px] h-[41px] flex items-center">
+      <button @click="toggleTheme" class=" w-[41px] h-[41px] flex items-center" aria-label="Toggle theme">
         <dark-icon v-show="colorMode.preference === 'light'" />
         <light-icon v-show="colorMode.preference === 'dark'" />
       </button>
