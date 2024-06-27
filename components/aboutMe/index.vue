@@ -11,7 +11,7 @@ const downloadResume = () => {
 </script>
 
 <template>
-  <section id="about-me" class="lg:-mt-28 mt-20 w-full">
+  <section id="about-me" class="2 -mt-12 w-full">
     <div class="w-full">
       <nuxt-img
         src="/images/GradientDark.png"

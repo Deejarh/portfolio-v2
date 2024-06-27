@@ -34,7 +34,7 @@ const toggleSideNav = () => {
 
 <template>
   <header
-    class="header-container dark:header-container2 dark:text-white custom-max-width backdrop-blur-[14px] flex justify-between items-center h-[71px] lg:h-[86px] rounded-full px-6 border font-oxygen shadow"
+    class="header-container dark:header-container2 dark:text-white custom-max-width backdrop-blur-[14px] flex justify-between items-center h-[65px] lg:h-[75px] rounded-full px-6 border font-oxygen shadow"
   >
     <deejarh-logo class="mx-4" alt="Damola's logo" />
 

@@ -10,15 +10,16 @@ const heroImage = ref({
 <template>
   <section
     id="hero"
-    class="lg:mt-1 lg:pt-2 mt-12 pt-12 lg:h-screen flex justify-center items-center"
+    class="  h-screen flex justify-center items-center"
   >
     <!-- <nuxt-img :src="heroImage.url" class=" max-md:rounded-t-3xl " /> -->
     <!-- <div class=" flex justify-center items-center h-auto    bg opacity-30  bg-blend-difference"></div> -->
 
     <div class="flex justify-center w-full items-center">
       <div
-        class="hero-section flex flex-col justify-center items-center gap-2 lg:mt-24 mt-20 mb-6"
+        class="hero-section flex flex-col justify-center items-center gap-2 lg:mt-24 mt-20  mb-6"
       >
+      <div class=" w-[210px] h-[210px]">
         <client-only>
           <Vue3Lottie
             :animation-data="DeejarhJSON"
@@ -29,7 +30,7 @@ const heroImage = ref({
             speed="0.5"
           />
         </client-only>
-
+      </div>
         <div
           class="greetings dark:text-white dark:bg-purple-4 dark:bg-opacity-10 dark:border-purple-4 dark:border-opacity-20 lg:text-sm font-semibold px-5 my-6 lg:my-4 py-1 rounded-full border border-gray-200 font-urbanist"
         >
