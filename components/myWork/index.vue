@@ -42,9 +42,9 @@ const projects = ref([
     <div>
       <div v-for="project in projects" :key="project.title">
         <div
-          class="flex flex-col lg:flex-row  animate  dark:hover:border-purple-2  hover:border-opacity-50  lg:hover:shadow lg:p-6 rounded-3xl lg:items-center text-gray-1 mb-12 mt-8 border border-gray-3 dark:border-gray dark:border-opacity-10 border-opacity-25"
+          class="flex flex-col lg:flex-row w-full animate  dark:hover:border-purple-2  hover:border-opacity-50  lg:hover:shadow lg:p-6 rounded-3xl lg:items-center text-gray-1 mb-12 mt-8 border border-gray-3 dark:border-gray dark:border-opacity-10 border-opacity-25"
         >
-          <nuxt-img :src="project.imgUrl" alt="Picture representing the project" class=" max-md:rounded-t-3xl lg:rounded-lg " />
+          <nuxt-img :src="project.imgUrl"  alt="Picture representing the project" class=" max-md:rounded-t-3xl lg:rounded-lg lg:w-[287px] w-full h-auto " />
           <div class="px-6">
             <h2 class=" dark:text-white font-bold my-4 text-base  font-urbanist">{{ project.title }}</h2>
             <p class=" dark:text-black-1 lg:my-4 my-6 text-sm ">{{ project.description }}</p>

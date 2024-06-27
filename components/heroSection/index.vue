@@ -26,6 +26,7 @@ const heroImage = ref({
             :autoPlay="true"
             :width="200"
             :height="200"
+            speed="0.5"
           />
         </client-only>
 
@@ -40,15 +41,15 @@ const heroImage = ref({
           I'm Badmus Damola Taiwo
         </h1>
         <p
-          class="text-black-3 dark:text-black-1 font-overlock text-xs lg:text-sm lg:-mt-2"
+          class="text-black-3 dark:text-black-1 font-overlock text-xs xl:text-sm lg:text-sm lg:-mt-1"
         >
           Crafting impactful web application, one line of code at a time.
         </p>
-        <video class="lg:mt-8 mt-6 w-[76px] h-[73px]">
+        <div class="lg:mt-8 mt-10 ">
           <NuxtLink to="#about-me" aria-label="About me"
-            ><img src="assets/HeroScroll.gif" alt="Arrow down gif"
+            ><img src="assets/HeroScroll.gif" class=" w-20 h-20" alt="Arrow down gif"
           /></NuxtLink>
-        </video>
+        </div>
       </div>
     </div>
   </section>
@@ -59,11 +60,7 @@ const heroImage = ref({
   background: rgba(123, 74, 226, 0.1);
 }
 
-.bg {
-  background-image: url("/images/HeroLight.png");
-  background-position: center;
-  background-repeat: no-repeat;
-}
+
 .text-color {
   color: rgba(44, 45, 63, 1);
 }
