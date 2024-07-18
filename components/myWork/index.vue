@@ -10,7 +10,7 @@ const projects = ref([
     description:
       "Explore my life and career journey interactively with this Nuxt.js and TypeScript-powered chatbot.Utilizing OpenAI API, it responds to inquiries about my experiences, offering insights and reflections. Engage in a personalized, conversational exploration of my professional trajectory.",
     url: "https://deejarhbot.netlify.app/",
-    tools: ["Nuxt", "Typescript", "NodeJS", "vue", "Html", "CSS", "firebase"],
+    tools: ["Next", "Typescript", "NodeJS", "Html", "CSS", "firebase"],
   },
   {
     title: "Omni",

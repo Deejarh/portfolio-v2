@@ -14,6 +14,10 @@ const buttons = ref([
     url: "/images/JavaScript.png",
   },
   {
+    name: "REACT",
+    url: "/images/React.png",
+  },
+  {
     name: "VUE JS",
     url: "/images/Vue.png",
   },
@@ -29,10 +33,7 @@ const buttons = ref([
     name: "NUXT",
     url: "/images/Nuxt.png",
   },
-  {
-    name: "REACT",
-    url: "/images/React.png",
-  },
+
   {
     name: "GRAPHQL",
     url: "/images/Graphql.png",

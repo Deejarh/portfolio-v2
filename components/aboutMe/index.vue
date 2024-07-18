@@ -42,7 +42,7 @@ const downloadResume = () => {
           delivering exceptional user experiences with a strong emphasis on
           <strong> performance </strong>, <strong> accessibility</strong>, and <strong>responsiveness</strong>. I have successfully
           harnessed an impressive array of cutting-edge technologies, including
-          JavaScript,Typescript, VueJs, React, NodeJs, GraphQL, REST, CSS, and
+          JavaScript,Typescript, React, VueJs, Nextjs, NodeJs, GraphQL, REST, CSS, and
           HTML, to fulfill complex functional requirements across a diverse
           spectrum of Fintech/credit products.
         </p>
