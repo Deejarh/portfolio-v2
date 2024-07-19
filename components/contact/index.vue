@@ -1,24 +1,10 @@
 <script setup lang="ts">
-import mixpanel from "mixpanel-browser";
 import ChatIcon from "@/assets/icons/ChatIcon";
 import EmailIcon from "@/assets/icons/EmailIcon";
 import LinkedIcon from "@/assets/icons/LinkedIn";
 import GitIcon from "@/assets/icons/GitIcon";
 import TwitterIcon from "@/assets/icons/TwitterIcon";
 
-const projectToken = ref(process.env.NUXT_PROJECT_TOKEN);
-mixpanel.init(projectToken, {
-  debug: true,
-  track_pageview: true,
-  ignore_dnt: true,
-});
-mixpanel.set_config({ persistence: "localStorage" });
-if (typeof document !== 'undefined') {
-  const referrer = document.referrer;
-mixpanel.track_links("#nav a", "click nav link", {
-  referrer: referrer,
-});
-}
 </script>
 
 <template>
