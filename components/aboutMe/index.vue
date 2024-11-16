@@ -1,14 +1,3 @@
-<script setup lang="ts">
-import resumePath from "assets/DamolaTaiwo.pdf";
-import ArrowDown from "assets/icons/ArrowDownIcon";
-
-const downloadResume = () => {
-  const link = document.createElement("a");
-  link.href = resumePath;
-  link.download = "DamolaTaiwo.pdf";
-  link.click();
-};
-</script>
 
 <template>
   <section id="about-me" class="2 -mt-12 w-full">
@@ -37,13 +26,11 @@ const downloadResume = () => {
       >
         <h1 class="lg:mb-4 header-font my-4 lg:my-0">About Me</h1>
         <p class="lg:pt-2">
-          I am a highly skilled software engineer with over four years of
-          experience in the fintech and credit industries, consistently
+          I am a highly skilled software engineer,consistently
           delivering exceptional user experiences with a strong emphasis on
           <strong> performance </strong>, <strong> accessibility</strong>, and <strong>responsiveness</strong>. I have successfully
           harnessed an impressive array of cutting-edge technologies, including
-          JavaScript,Typescript, React, VueJs, Nextjs, NodeJs, GraphQL, REST, CSS, and
-          HTML, to fulfill complex functional requirements across a diverse
+          JavaScript,Typescript, React, VueJs, Nextjs, NodeJs, to fulfill complex functional requirements across a diverse
           spectrum of Fintech/credit products.
         </p>
 
@@ -58,12 +45,7 @@ const downloadResume = () => {
           so i find myself always wanting to visit the beach to enjoy the cool
           breeze and appreciate nature.
         </p>
-        <div
-          @click="downloadResume"
-          class="border dark:text-white dark:hover:bg-gray-3 dark:bg-white dark:bg-opacity-10 dark:border-gray-3 hover:bg-primary hover:bg-opacity-30 text-xs rounded-full px-4 py-3 mt-6 w-44 lg:w-48 flex items-center justify-center cursor-pointer font-oxygen gap-2"
-        >
-          Download Resume <span><arrow-down /></span>
-        </div>
+       
       </div>
     </div>
   </section>
@@ -78,3 +60,6 @@ const downloadResume = () => {
   border-image: radial-gradient(circle, #ffffff 100%, #c9c9c9 0%);
 }
 </style>
+
+
+

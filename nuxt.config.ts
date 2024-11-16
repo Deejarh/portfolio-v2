@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-const appDescription = "Badmus Damola Taiwo is a highly proficient frontend developer with over three years of invaluable experience in the fintech/credit Industry, consistently delivering exceptional user experiences for a range of web applications"
+const appDescription = "Badmus Damola Taiwo is a highly proficient software engineer with over four years of invaluable experience in the fintech/credit Industry, consistently delivering exceptional user experiences for a range of web applications"
 
 export default defineNuxtConfig({
   runtimeConfig: {
@@ -20,20 +20,19 @@ export default defineNuxtConfig({
         property: "og:description",
         content: appDescription,
       },
-      { hid: "og:type", property: "og:type", content: "Badmus Damola Taiwo portfolio" },
+      { hid: "og:type", property: "og:type", content: "website" },
       {
         hid: "og:url",
         property: "og:url",
-        content: "https://badmus-damola-taiwo.netlify.app/",
+        content: "https://damola-badmus-taiwo.vercel.app/",
       },
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      { rel: 'preconnect', href: "https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Oxygen:wght@300;400;700&family=Passion+One:wght@400;700;900&family=Spirax&display=swap", crossorigin: "anonymous" },
-      { rel: 'preconnect', href: "https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap", crossorigin: "anonymous" },
-      { rel: 'preconnect', href: "https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Passion+One:wght@400;700;900&display=swap", crossorigin: "anonymous"},
-      { rel: 'preconnect', href: "https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Oxygen:wght@300;400;700&family=Passion+One:wght@400;700;900&display=swap", crossorigin: "anonymous"},
-      { rel: 'preconnect', href: "https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Oxygen:wght@300;400;700&family=Passion+One:wght@400;700;900&family=Spirax&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap", crossorigin: "anonymous"},
+      { rel: 'preconnect', href: "https://fonts.googleapis.com", crossorigin: "anonymous" },
+      { rel: 'preconnect', href: "https://fonts.gstatic.com", crossorigin: "anonymous" },
+      { rel: 'preload', as: 'style', href: "https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Oxygen:wght@300;400;700&family=Passion+One:wght@400;700;900&family=Spirax&display=swap" },
+      { rel: 'stylesheet', href: "https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Oxygen:wght@300;400;700&family=Passion+One:wght@400;700;900&family=Spirax&display=swap", media: 'print', onload: "this.media='all'" }
     ],
   },
 },

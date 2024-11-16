@@ -52,8 +52,8 @@ const buttons = ref([
     <div
       class="dark:border-gray border-gray border-opacity-50  dark:border-opacity-20  border bg-no-repeat font-passion relative max-md:max-w-[400px] w-full pb-3 min-h-[300px] lg:min-h-[300px] bg-purple dark:bg-[#000000] dark:bg-opacity-10 bg-cover bg-[url('/images/LightCode.png')] dark:bg-[url('/images/DarkCode.png')] rounded-3xl"
     >
-      <div v-show="colorMode.preference === 'light' " class="overlay rounded-3xl"></div>
-      <div v-show="colorMode.preference === 'dark' " class="overlay2 rounded-3xl"></div>
+      <div v-if="colorMode.preference === 'light' " class="overlay rounded-3xl"></div>
+      <div v-else class="overlay2 rounded-3xl"></div>
       <p
         class="text-gray-1 dark:text-black-1 font-bold text-opacity-40 font-oxygen text-xs flex justify-center my-9 items-center"
       >
