@@ -1,6 +1,6 @@
 # My Portfolio
 
-This repo contains the source code for my [portfolio website](https://damola-badmus-taiwo.vercel.app/)
+This repo contains the source code for my [portfolio website](https://damola-badmus-taiwo.vercel.app/) which is an upgrade of an [earlier version](https://github.com/Deejarh/portfolio-v1)
 
 ## Setup
 
